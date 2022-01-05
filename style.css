@@ -146,21 +146,38 @@ body{
 }
 .development .right{
     display: flex;
-    justify-content: space-between;
+    
     
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
 }
 .development .right h3{
-    width: 132px;
     margin-top: 50px;
     font-size: 11px;
     color: #737373;
     line-height: 2.7;
     margin-right: 70px;
+    margin: auto;
 }
-
+.development .right .s1{
+    width: 140px;
+}
+.development .right .s2{
+    width: 170px;
+}
+.development .right .s3{
+    width: 160px;
+}
+.development .right .s4{
+    width: 145px;
+}
+.development .right .s5{
+    width: 165px;
+}
+.development .right .s6{
+    width: 158px;
+}
 .where{
     margin-top: 90px;
     width: 100%;
