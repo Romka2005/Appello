@@ -494,7 +494,6 @@ body{
 .resources{
     width: 100%;
     padding-top: 150px;
-    height: 1177px;
 }
 .resources .title{
     margin: auto;
@@ -736,5 +735,59 @@ i {
 }
 .kickstart .slider .content{
     display: flex;
-    
+        
+}
+.footer{
+    padding-top: 122px;
+    background: #0E0E33;
+    color: white;
+}
+.footer .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FFFFFF80;
+}
+.footer .top h1{
+    font-size: 15px;
+}
+.footer .middle{
+    padding-top: 148px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 148px;
+}
+.footer .middle h1{
+    font-size: 20px;
+    margin-bottom: 31px;
+}
+.footer .middle h2{
+    font-size: 15px;
+    padding-bottom: 12px;
+    width: 320px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #FFFFFF80;
+}
+.footer .bottom{
+    padding-top: 33px;
+    padding-bottom: 30px;
+    border-top: 1px solid #FFFFFF80;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .bottom h1{
+    font-size: 15px;
+}
+.footer .bottom h2{
+    font-size: 16px;
+}
+.footer .bottom a{
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    transition: .5s;
+}
+.footer .bottom a:hover{
+    color: #0A8BFE;
 }
